@@ -60,6 +60,20 @@ html{
         padding-right: 4%;
         font-size:14px;
     }
+
+    .navbarElems {
+        text-align:center;
+        color:#feda6a;
+        padding-top: 8px;
+        font-family: Merriweather;
+        font-size: small;
+    }
+
+    #iDesigns_group{
+        align-self:center;
+        height: 50%;
+        width: 100%;
+    }
 }
 
 /*BIG SCREEN CONFIG*/
@@ -89,6 +103,20 @@ html{
         padding-right: 12%;
         font-size:14px;
     }
+
+    .navbarElems {
+        text-align:center;
+        color:#feda6a;
+        padding-top: 8px;
+        font-family: Merriweather;
+        font-size: large;
+    }
+
+    #iDesigns_group{
+        align-self:center;
+        height: 50%;
+        width: 50%;
+    }
 }
 
 /*Navigation bar configuration*/
@@ -98,13 +126,6 @@ html{
     display:block;
 }
 
-.navbarElems {
-    text-align:center;
-    color:#feda6a;
-    padding-top: 8px;
-    font-family: Merriweather;
-    font-size: large;
-}
 .navbarElems:hover{
     background:linear-gradient(to top, black, #19191a);
     border-color:white;
@@ -213,11 +234,6 @@ ul{
     background-color: #1a1917;
 }
 
-#iDesigns_group{
-    align-self:center;
-    height: 50%;
-    width: 50%;
-}
 #iDesigns_project{
     margin: auto;
     height:100%;
