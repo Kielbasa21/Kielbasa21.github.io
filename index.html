@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <title>Patryk Kasza Resume Website</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
+</head>
+
+<body>
+  <nav class="navigationBar">
+    <div class="container-fluid heightFill">
+      <div class="row no-gutter heightFill">
+        <a class="navbarElems heightFill col-xs-3" href="#skills/projects">Skills/Projects</a>
+        <a class="navbarElems heightFill col-xs-3" href="#eduHistory">Education History</a>
+        <a class="navbarElems heightFill col-xs-3" href="#workPractices">Work Practices</a>
+        <a class="navbarElems heightFill col-xs-3" href="#contactme">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid homeScreen">
+
+    <div class="row no-gutters">
+      <p class="centerText" id="heading">Patryk Kasza</p>
+      <div class="col-xs-6 lineleft mobilelineleft"></div>
+      <div class="col-xs-6 lineright mobilelineright"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 linegutter" id="pic-about">
+        <img src="media/profilePicCropped.jpg" class="img-responsive center-block" alt="Responsive image">
+      </div>
+    </div>
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+    <div class="row">
+      <div class="col-xs-12 linegutter" id="aboutmeDiv">
+        <h3 class="centerText yellowText">Computer Science Major</h3>
+        <h3 class="centerText yellowText">University at Buffalo, Class of 2022</h3>
+        <p class="centerText yellowText"><b>Term GPA: 3.72</b></p>
+        <p class="centerText yellowText"><em><b>Deans List:</b> Fall, 2020</em></p>
+        <p class="centerText yellowText">Determined, hard-working individual yearning to learn more and apply skills to
+          the real world.</p>
+      </div>
+    </div>
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+    <div class="row">
+      <div class="col-xs-12 centerText linegutter">
+        <h3 class="whiteText">Interested?</h3>
+        <h3 class="whiteText">Read More!</h3>
+      </div>
+    </div>
+
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+    <!--Skills and project row/column setup-->
+    <div class="row no-gutter linegutter">
+      <div class="col-xs-12 col-sm-6">
+        <h3 class="centerText yellowText" id="skills/projects">Skills</h3>
+        <ul>
+          <div class="wrapper">
+            <details>
+              <summary class="skills">Html/Css</summary>
+              <p class="text_skills">
+                Majority of my experience with these languages is this very website! I worked on a little bit of
+                front-end
+                for my <em>Codeville</em> project, but the majority of my contribution to that project was backend.
+              </p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>Node</summary>
+              <p class="text_skills">
+                Self taught when I worked with a team to create a full-stack social media website for school,
+                <em>Codeville</em>. I focused primarly on the backend, implementing features to register users and
+                provide
+                functionality such as adding friends.
+              </p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>PostgreSql</summary>
+              <p class="text_skills">
+                For my social media project<em> Codeville</em>, I used PostgreSql to register users, create dynamic
+                sites,
+                add courses to a users profile and send friend requests.</p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>Javascript</summary>
+              <p class="text_skills">
+                Used this skill to create dynamic sites in my social media project. Rather limited experience.
+              </p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>C</summary>
+              <p class="text_skills">
+                My most notable project was implementing malloc, on a Unix platform. I also created a keypad, and motion
+                sensored security system on the Mbed platform. In general I feel very comfortable and confident with
+                this
+                language.</p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>Scala</summary>
+              <p class="text_skills">
+                I learned the fundamentals of programming with this language. Coded a Genetic Algorithm, Breadth First
+                Search, and a very primitive MMO. Also implemented a multitude of varying data structures, ranging from
+                things like linked lists, heap structures, and AVL trees.</p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>Python</summary>
+              <p class="text_skills">
+                I completed many small projects with this language early on but haven't used it much after. However,
+                from my
+                limited experience it strikes me as an easy language to understand.</p>
+            </details>
+          </div>
+
+        </ul>
+      </div>
+
+      <div class="col-xs-6 mobilelineleft "></div>
+      <div class="col-xs-6 mobilelineright "></div>
+      <div class="col-xs-12 col-sm-6">
+        <h3 class="centerText yellowText">Projects</h3>
+        <ul>
+          <div class="wrapper">
+            <details>
+              <summary>Malloc implementation</summary>
+              <p class="text_skills">
+                I implemented malloc on a UNIX platform utilizing C and heavily relying on the GDB debugger. This
+                project
+                was single threaded only, and could run all applications that did not require multi-threaded support.
+                Sadly,
+                I did not save my final project to github and in its current state, it is a broken multi-threaded
+                approach.
+              </p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>Codeville</summary>
+              <p class="text_skills">
+                Full-stack social media website. I focused primarly on the backend, working with Node.js, with Express
+                and
+                PostgreSql. Everything I did I learned on my own, as the course was more focused on the development
+                process,
+                not programming.</p>
+            </details>
+          </div>
+          <div class="wrapper">
+            <details>
+              <summary>Keypad/Motion Sensored Security System</summary>
+              <p class="text_skills">
+                These 2 projects are much more hands on, requiring me to physically build the system and then configure
+                it.
+                Keypad features a password based system that would "lock" or "unlock", while the motion sensored would
+                buzz
+                when something was detected.</p>
+            </details>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <!--Skills and project row/column setup-->
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+
+    <div class="row centerText linegutter">
+      <h3 class="whiteText" id="eduHistory">Brief Education History</h3>
+      <p class="whiteText textwall">My Computer Science career didn't go off to a great start. Similar to many of my
+        peers, I struggled adjusting to college life and expectations, and lost my spot in the computer science program.
+        I immediately took steps to get back on track, and by next semester, I was accepted back into the program. I
+        have maintained a GPA above a 3.0 since. During my most recent semester, while taking 19 credits, I managed to
+        get the <em>Dean's List</em> award, with a 3.72 GPA. I’ve learned from my mistakes, and I'm determined to excel
+        in everything I do.</p>
+    </div>
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+    <div class="row linegutter centerText whiteText">
+      <h3 id="workPractices">Work Practices</h3>
+      <h4 class="yellowText">Ethics</h4>
+      <p class="textwall">I am a self-starter and a hard worker. In all my previous jobs, I quickly proved to be a team
+        player and a leader. I pride myself in being someone that could be relied on, and someone who does not need a
+        lot of hand-holding. I also try to be an uplifting spirit in the workplace, and don't shy away from extra
+        responsibility.</p>
+      <h4 class="yellowText">Coding</h4>
+      <p class="textwall">When I code, I generally try to make the code as simple as it can possibly be, while
+        maintaining necessary scalability. I try to comment everything, so that I can go back and quickly understand
+        what and why I did something. Overall, I am learning not to overthink a project, but rather plan it out, code
+        it, and complete enough testing to make sure my code is working properly.</p>
+      <h4 class="yellowText">Teamwork</h4>
+      <p class="textwall"> In high school and at my catering job, I learned a lot about teamwork. I was captain of both
+        my club and school volleyball teams. I had to be there for my teammates and find a way to motivate them to
+        better themselves individually and the team as a whole. However, it wasn’t until working on my most recent
+        project, <em>Codeville</em>, that I really learned how to work with others during a challenging situation.
+        Because we all work together remotely and we all had different levels of experience with the languages we used,
+        I had to format my work in a way that could be easily scaled within our project and in a way that my teammates
+        could easily understand. I communicated really well with my teammates and took the lead on managing our project
+        to completion. Though it was challenging, I believe we all learned a lot and had fun with it.</p>
+    </div>
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+    <div class="row linegutter centerText">
+      <h3 class="whiteText">Notable Achievements</h3>
+      <div class="wrapper">
+        <details class="achievements">
+          <summary>iDESIGN 2017</summary>
+          <div class="seperator"></div>
+          <p></p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <p>For this project we were tasked to create a prototype of a hydraulic farm. The idea was to "sell" our product. We had to engineer the entire thing. The only peice that was lacking was the raspberry-controlled supply of nutrients into the plants. We simply didn't have the resources and tools available. </p>
+              <p>We ended up winning this competition. We managed to prototype a working hydraulic farm that is also a table. I was proud of this project. I led most of the design choices of our project and made it stand out compared to the others.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6" id="iDesigns_group">
+              <img src="media/iDesigns_group.jpg" class="img-responsive center-block" alt="Responsive image">
+            </div>
+              <div class="col-xs-12" id=iDesigns_project>
+                <img src="media/iDesigns_project.jpg" class="img-responsive center-block" alt="Responsive image">
+              </div>
+      
+          </div>
+        </details>
+      </div>
+      <div class="wrapper">
+        <details class="achievements">
+          <summary>Keypad/Motion Sensored Security System(s)</summary>
+          <div class="seperator"></div>
+          <p></p>
+          <p class="textwall">I won't get too specific about these projects, they have accompanying documentation for each. </p>
+          <p class="textwall">Essentially these projects were developed on the NUCLEO, with minor components/devices to provide functionality</p>
+          <h4>Keypad Project</h4>
+          <p class="textwall">Used a keypad to create a basic password based system, that would display the status of the system either being locked or unlocked. Also gave a password reset as well.</p>
+          <a href="pdf/CSE321_Project2_Documentation.pdf" class="links">Documentation</a><br/>
+          <a href="https://github.com/CSE321-Fall2020/project2-Kielbasa21" class="links">Github Repository</a>
+
+          <h4>MotionSensored Project</h4>
+          <p class="textwall">Used a ultra sonic sensor to detect movement. It will play a sound when it's locked and movement is detected but nothing when it is unlocked.</p>
+          <a href="pdf/CSE 321 Project 3 Documentation.pdf" class="links">Documentation</a><br/>
+          <a href="https://github.com/CSE321-Fall2020/project-3-pskasza" class="links">Github Repository</a>
+        </details>
+      </div>
+      <div class="wrapper">
+        <details class="achievements">
+          <summary>Codeville</summary>
+          <p class></p>
+          <p class="textwall">This project was by far my most favorite and accomplished.</p>
+          <p class="textwall">I have never coded front-end nor backend before so going into this project was very hard. I decided to focus more on backend, its what I preferred and most of my group wanted to do backend. My contributions can be tracked in the github repo below.</p>
+          <p class="textwall"> I have included the youtube video we needed to create as a group to "sell" our website. It was first a presentation then a showcase of our features, so please bear that in mind. The website features start around the 2 minute mark, under Manav.</p>
+          <a href="https://github.com/UB-CSE/course-project-codeville" class="links">Github Repository</a><br/>
+          <a href="https://www.youtube.com/watch?v=D7CobPZzUy8&feature=youtu.be" class="links">Youtube Link</a>
+        </details>
+      </div>
+    </div>
+
+
+    <div class="col-xs-6 mobilelineleft lineleft"></div>
+    <div class="col-xs-6 mobilelineright lineright"></div>
+
+    <div class="row no-gutters centerText" id="contactme">
+      <h4 class="yellowText">Still here?</h4>
+      <h4 class="yellowText">Any Questions?</h4>
+      <div class="col-xs-0 col-sm-3"></div>
+      <div class="col-xs-6 col-sm-3 centerText">
+        <h5 class="whiteText">Email: kaszapatryk@gmail.com</h5>
+      </div>
+      <div class="col-xs-6 col-sm-3 centerText">
+        <h4><a class="whiteText" href="www.linkedin.com/in/patryk-kasza-0a19aa19a">LinkedIn</h4>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

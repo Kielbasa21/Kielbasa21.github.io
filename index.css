@@ -1,0 +1,230 @@
+*{
+    font-family:Merriweather;
+}
+
+body{
+    height:100%;
+    margin: 0;
+    background-color:#21201e;
+    padding-bottom: 40px;
+}
+html{
+    scroll-behavior: smooth;
+    min-height: 100%;
+    margin: 0;
+}
+
+/*Basic classes for easy styling*/
+
+ .linegutter{/*Gray lines in the site, padding given to elem above to seperate*/
+    padding-bottom: 40px;
+}
+.centerText{
+    text-align:center;
+}
+.heightFill{
+    height:100%;
+}
+
+.yellowText{
+    color:#feda6a;
+}
+
+.whiteText{
+    color:white;
+}
+
+
+
+/*SMALL SCREEN CONFIG*/
+@media (max-width: 768px) {
+
+    /*Gray lines in the site*/
+    .mobilelineright{
+        background:linear-gradient(to right, lightslategray, #1a1917);
+        padding:3px;
+    }
+    
+    .mobilelineleft{
+        background:linear-gradient(to left, lightslategray, #1a1917);
+        padding:3px;
+    }
+
+    .homeScreen{
+        background-color: #1a1917;
+    }
+
+    /*To center "wall" of texts, such as ethics,codes, teamwork etc*/
+    .textwall{
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size:14px;
+    }
+}
+
+/*BIG SCREEN CONFIG*/
+@media (min-width: 769px) {
+    /*Gray lines in the site*/
+    .lineright{
+        background:linear-gradient(to right, lightslategray, #1a1917);
+        padding:3px;
+    }
+    .lineleft{
+        background:linear-gradient(to left, lightslategray, #1a1917);
+        padding:3px;
+    }
+
+    .homeScreen{
+        background-color: #1a1917;
+        width: 50pc;
+        padding-bottom: 10px;
+    }
+    .halfscreen{
+        width:50%;
+    }
+
+    /*To center "wall" of texts, such as ethics,codes, teamwork etc*/
+    .textwall{
+        padding-left: 12%;
+        padding-right: 12%;
+        font-size:14px;
+    }
+}
+
+/*Navigation bar configuration*/
+.navigationBar{
+    background-color:black;
+    height: 50px;
+    display:block;
+}
+
+.navbarElems {
+    text-align:center;
+    color:#feda6a;
+    padding-top: 8px;
+    font-family: Merriweather;
+    font-size: large;
+}
+.navbarElems:hover{
+    background:linear-gradient(to top, black, #19191a);
+    border-color:white;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style:solid;
+    color:white;
+    font-weight: 550;
+}
+
+
+
+/*Gives a padding between name on the top and everything else*/
+#pic-about{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    align-self:center;
+}
+/*Heading, my name on the top*/
+#heading{
+    text-align:center;
+    font-size:xx-large;
+    padding-top:5px;
+    color:white;
+}
+
+
+/*Styling for the Skills and Projects sections*/
+
+details{
+    color:white;
+    background-color: #141414;
+    border-radius: 4px;
+}
+
+details summary:hover{
+    color:white;
+    background:linear-gradient(to right, #141414, #1f1d1d);
+    border-radius: 4px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: 1px black solid;
+}
+
+details summary{
+    color:white;
+    border:1px #141313 solid;
+    border-radius: 4px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: 1px black solid;
+    
+}
+/*Makes it so the standard arrow doesn't show*/
+details summary::-webkit-details-marker{
+    display:none;
+}
+
+/*Seperates the elements*/
+ul .wrapper{
+    padding-bottom: 5px;
+    margin:auto;
+    width: 90%;
+}
+ul{
+    padding:0;
+    list-style-type: none;
+}
+/*The dropdown text*/
+.text_skills {
+    border-radius: 0 0 5px 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 3px 3px #21201e;
+}
+
+/*END of Skills/Projects*/
+
+
+.wrapper{
+    padding-bottom: 10px;
+    margin:auto;
+    width: 80%;
+}
+
+.achievements summary{
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+    color:#feda6a;
+    border-radius: 10px;
+}
+
+.achievements summary:hover{
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top,#141414, #1f1d1d);
+}
+
+.seperator{
+    height: 20px;
+    background-color: #1a1917;
+}
+
+#iDesigns_group{
+    align-self:center;
+    height: 50%;
+    width: 50%;
+}
+#iDesigns_project{
+    margin: auto;
+    height:100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.links{
+    color: #feda6a;
+}
